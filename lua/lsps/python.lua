@@ -1,4 +1,4 @@
-require("conform").setup({ formatters_by_ft = { python = { "blue" } } })
+require("conform").setup({ formatters_by_ft = { python = { "blue", "ruff" } } })
 
 vim.lsp.config["basedpyright"] = {
   cmd = { "basedpyright-langserver", "--stdio" },
